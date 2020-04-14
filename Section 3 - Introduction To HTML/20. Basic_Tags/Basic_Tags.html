@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Tags</title>
+</head>
+<body>
+
+	<!-- 	Heading tags. Used to represent a main heading for the page, and then subheadings for hierarchical groups of content on the page. Ideally there is only one <h1> tag on the page (i.e. The page title). The devleoper should aim to use no more than three types of heading tag unless unavoidable. These tags should also follow a hierarhical pattern that makes sense (i.e. Use headings in order of size. Don't have a <h1> resting below a <h3>) as this will end up confusing the user. -->
+	<h1>HTML Basics</h1>
+	<h2>This is another heading</h2>
+	<h3>This is a smaller heading</h3>
+
+	<!-- The above elements are known as block level elements. Each section of content wrapped in these tags starts on it's own line on the document.  -->
+
+	<!-- The tags below are paragraph tags. They are used to seperate individual blocks of related content. In traditonal media, this was blocks of text, however in HTML this can be anything from groups of images to form fields. These are block tags -->
+	<p>
+		This is some text. blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah sdjdskjhffkjdf hadfh asdkfhsadkjf hfksdahfsadkhdaskfj asdh fsadk 
+	</p>
+
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tincidunt venenatis lectus sit amet aliquet. Fusce hendrerit, eros et congue suscipit, enim mi finibus neque, ut facilisis orci ligula vehicula lectus. Phasellus imperdiet, lorem volutpat sodales tempor, quam urna ornare ante, quis suscipit erat magna non ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae arcu est. Vestibulum porttitor mi id elementum sollicitudin. Pellentesque porta in sem quis lobortis. Curabitur dictum, magna eget malesuada suscipit, diam massa gravida leo, ac tempus neque sapien sed leo. Vestibulum blandit ullamcorper imperdiet. Aenean et elit diam.
+	</p>
+
+	<!-- The block below contrains the <b> (bold) and <i> (itallic) tags. They are used to style text, though have been replaced in HTML 5 by the <strong> and <em> tags and help to provide semantics to content. These are inline tags. Inline tags operate on a line of content rather than a block. They can embedded within a block level tag, but cannot contain a block level tag themselves. -->
+	<p>
+		Quisque at nibh lobortis, <b>sollicitudin eros nec</b>, feugiat erat. Praesent imperdiet blandit semper. <i>Sed sed tempus ex, at semper orci</i>. Fusce malesuada lacinia ligula vitae volutpat. <strong>Etiam volutpat augue vitae nibh interdum, in dignissim urna pulvinar</strong>. Ut dictum <em>justo id ultricies efficitur</em>. Nunc consectetur vel orci id porta. Praesent vel dignissim felis. Nam aliquet odio sit amet mauris aliquam finibus.
+	</p>
+
+	<h2>Lists</h2>
+
+	<!-- Ordered lists <ol> are block level elements used to display lists of content that take some form of ordered structure (for example, a list of instructions or directions). Ordered lists represent each item in the list with the list item (<li>) block level elements. -->
+	<h3>Ordered Lists</h3>
+	<ol>
+		<li>Open The Door.</li>
+		<li>Put The Clothes In.</li>
+		<li>Add The Detergent.</li>
+		<li>
+			Close The Door
+				<ul>
+					<!-- Inline level elements such as the strong and empahsis tags can be used to style the text of each list item as demonstrated below. -->
+					<li>Make Sure The Door Is <strong>Closed Properly!</strong></li>
+					<li>Make Sure The Machine Is <strong>Not Overloaded!</strong></li>
+				</ul>
+		</li>
+			<!-- Lists can be nested inside one another (including lists of different types) in instances where a list item may have a series of sub-categories or sub-steps. It is advisable to avoid too many levels of nesting as this can begin to look confusing and cluttered. THIS MUST BE DONE INSIDE THE LIST ITEM THAT SPAWNS THE NEW LIST!-->
+		<li>Start The Washing Machine</li>
+	</ol>
+
+	<h3>Unordered Lists</h3>
+	<ul>
+		<li>Joy Division</li>
+		<li>Interpol</li>
+		<li>Nine Inch Nails</li>
+	</ul>
+
+</body>
+</html>
